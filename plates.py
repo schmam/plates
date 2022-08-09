@@ -26,12 +26,11 @@ def valid_characters(s):
         else:
             return True
 
+#please help for the next two functions        
+
 def no_leading_zero(s):
     for letter in s:
         if letter.isnumeric() == True                                   #if the first number in a plate is a zero, reject plate as invalid
-
-
-
 
 def no_number_in_middle(s):
 
